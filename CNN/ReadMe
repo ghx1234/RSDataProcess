@@ -1,0 +1,8 @@
+数据格式
+/train_img
+/train_sample
+/val_img
+/val_sample
+
+输入是4个波段的图像(channl=4)，可以是任意bit的辐射分辨率
+样本是0-1图像，一把情况0是背景
