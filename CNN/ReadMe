@@ -1,4 +1,4 @@
-数据格式
+TORCH数据格式
 /train_img
 /train_sample
 /val_img
@@ -9,4 +9,20 @@
 
 predict.py输入是任意尺寸（大于512*512），任意辐射分辨率
 test.py是512*521数据
+zengqiang.py 包括平移旋转缩放 灰度变化等
+****************************************************
+Keras数据格式
+/train_img
+/train_sample
+
+/val_img
+/val_sample
+
+使用CMD dir /b /d >name.txt获得name.txt
+样本是0-1图像，一般情况0是背景
+
+predict_bigtiff.py输入是任意尺寸图像
+/image
+/result
+
 zengqiang.py 包括平移旋转缩放 灰度变化等
